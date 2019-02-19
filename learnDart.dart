@@ -52,7 +52,13 @@ printBikeMake() {
   new Bike().printDisplacement();
 }
 
-var fruits = const []
+var fruits = const ["apple", "mango", "pineapple", "orange"];
+var capitals = const {"india": "new_delhi", "canada": "toronto", "russia": "moscow"};
+
+printFruitsAndCapitals() {
+  print(fruits[2]);
+  print(capitals["india"]);
+}
 
 main() {
   example1();
@@ -60,4 +66,5 @@ main() {
   numberOfPlanets();
   accessClass();
   printBikeMake();
+  printFruitsAndCapitals();
 }
